@@ -20,7 +20,7 @@ for i in range(0,len(latitudes)):
 	print(latitudes[i])
 	img = qrcode.make(latitudes[i])
 	img.save('images/'+latitudes[i]+'.jpg')
-
+time.sleep(6)
 wb = Workbook()
 dest_filename = 'final_book.xlsx'
 ws2 = wb.create_sheet(title="scancode")
@@ -38,7 +38,7 @@ for j in range(0,len(latitudes)):
 	currentCell.alignment = Alignment(horizontal='center',vertical='center')
 	currentCell2 = ws2[cellname_image]
 	currentCell2.alignment = Alignment(horizontal='center',vertical='center')
-	
+	time.sleep(3)
 
 
 wb.save(filename = dest_filename)
