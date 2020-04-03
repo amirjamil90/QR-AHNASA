@@ -4,7 +4,7 @@ Bulk QR Code Generator
 Pre-requisites
 
 1. Python-3 
-2. install all the packages with pip -  pandas,openpyxl,
+2. install all the packages with pip -  pandas,openpyxl,qrcode
 
 
 3. The primary read file is nation.xls which contains the text for which the qr has to be made. 
