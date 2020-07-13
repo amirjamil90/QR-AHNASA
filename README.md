@@ -11,6 +11,7 @@ Pre-requisites
 4. Folder named "images" shoould be present in the same directory for the run code. 
 5. the final code will come in excel fiel as well as qr will be saved in images folder. 
 
+[![HitCount](http://hits.dwyl.com/amirjamil90/{project}.svg)](http://hits.dwyl.com/amirjamil90/{project})
 
 
 
