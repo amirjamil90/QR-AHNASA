@@ -1,3 +1,10 @@
+#This code is written by Mr.Mohammad Amir Jamil. 
+#The code bascially is for bulk qr code generator where inputs are fed from Excel file. 
+#The output shall be reflected in Excel file as well as images folder.
+#Need to work on Code Semantics i.e. variables names since it was made in haste for Project Requirement. 
+
+
+
 import qrcode
 from openpyxl import Workbook
 from openpyxl.utils import get_column_letter
@@ -11,8 +18,6 @@ from openpyxl import Workbook
 from openpyxl.drawing.image import Image
 from openpyxl.styles import Alignment
 from openpyxl.styles.borders import Border, Side
-
-
 
 df = pd.read_excel('nation.xlsx', sheet_name='Sheet1',sep='\s*,\s*')
 latitudes=df['BUILDINGID'].tolist()
